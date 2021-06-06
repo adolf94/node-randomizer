@@ -24,6 +24,6 @@ io.on('connection', (socket) => {
   chatSocket(socket,io);
 });
 
-server.listen(443, () => {
+server.listen(process.env.PORT, () => {
   console.log('listening on *:5000');
 });
