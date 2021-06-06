@@ -24,6 +24,6 @@ io.on('connection', (socket) => {
   chatSocket(socket,io);
 });
 
-server.listen(5000, () => {
+server.listen(80, () => {
   console.log('listening on *:5000');
 });
